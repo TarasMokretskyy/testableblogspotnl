@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "3735683ce343fb3b",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "d4b08f7586182982",
+        "name" : "Test",
+        "title" : "Test",
+        "time" : {
+          "start" : 1487771767512,
+          "stop" : 1487771785857,
+          "duration" : 18345
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

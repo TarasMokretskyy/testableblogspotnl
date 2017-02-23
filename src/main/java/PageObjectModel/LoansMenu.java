@@ -12,7 +12,7 @@ public class LoansMenu extends AbstractPage {
     @FindBy(css = "*[href='/individuals/pret']")
     private WebElement loansMenu;
 
-    @FindBy(css = "*[href='http://ia.ca/mortgage']")
+    @FindBy(css = "[data-utag-name='mortgage_loan']")
     private WebElement mortgages;
 
 

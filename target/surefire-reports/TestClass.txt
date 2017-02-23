@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.291 sec <<< FAILURE! - in TestClass
+Test(TestClass)  Time elapsed: 18.362 sec  <<< FAILURE!
+java.lang.AssertionError: expected [$ 836.75] but found [$ 726.35]
+	at TestClass.Test(TestClass.java:47)
+

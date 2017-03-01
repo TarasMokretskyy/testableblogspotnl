@@ -77,6 +77,8 @@
       <file leaf-file-name="MortgagePaymentCalculatorPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObjectModel/MortgagePaymentCalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2898#2899#0" expanded="true" />
@@ -797,6 +799,7 @@
       <workItem from="1487861045074" duration="1244000" />
       <workItem from="1487878838688" duration="5273000" />
       <workItem from="1488298346534" duration="1597000" />
+      <workItem from="1488355345085" duration="6484000" />
     </task>
     <servers />
   </component>
@@ -833,6 +836,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1280,6 +1284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjectModel/MortgagePaymentCalculatorPage.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2898#2899#0" expanded="true" />

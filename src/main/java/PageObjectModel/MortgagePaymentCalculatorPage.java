@@ -55,8 +55,9 @@ public class MortgagePaymentCalculatorPage extends AbstractPage {
 
     @Step
     public void clickOnPurchasePricePlusButton(){
-        AbstractPage.clickOnWebelement(purchasePricePlusButton);
-        AbstractPage.clickOnWebelement(purchasePricePlusButton);
+        //AbstractPage.clickOnWebelement(purchasePricePlusButton);
+        //AbstractPage.clickOnWebelement(purchasePricePlusButton);
+        AbstractPage.doubleClickOnWebelement(purchasePricePlusButton);
     }
 
 

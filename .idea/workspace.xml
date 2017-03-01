@@ -22,11 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObjectModel/AbstractPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="391">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2083#2084#0" expanded="true" />
@@ -74,15 +74,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MortgagePaymentCalculatorPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MortgagePaymentCalculatorPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObjectModel/MortgagePaymentCalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2823#2824#0" expanded="true" />
-                <element signature="e#2868#2869#0" expanded="true" />
+                <element signature="e#2898#2899#0" expanded="true" />
+                <element signature="e#2943#2944#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,18 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ClassTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IwebAppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tools/IwebAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,6 +123,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,15 +177,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Listener_Demo/ITestListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjectModel/LoansMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObjectModel/MortgagePaymentCalculatorPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tools/ITakeSrceenShot.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjectModel/Browser.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClassTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObjectModel/AbstractPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tools/TestListenerClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tools/IwebAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tools/IwebApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjectModel/AbstractPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjectModel/MortgagePaymentCalculatorPage.java" />
       </list>
     </option>
   </component>
@@ -377,7 +375,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="TestNG.ClassTest">
+  <component name="RunManager" selected="TestNG.ClassTest.Test">
     <configuration default="false" name="ClassTest.Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="test-able.blogspot.nl" />
@@ -771,8 +769,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ClassTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ClassTest.Test" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ClassTest.Test" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -799,7 +797,6 @@
       <workItem from="1487861045074" duration="1244000" />
       <workItem from="1487878838688" duration="5273000" />
       <workItem from="1488298346534" duration="1597000" />
-      <workItem from="1488355345085" duration="5545000" />
     </task>
     <servers />
   </component>
@@ -813,8 +810,8 @@
     <history-entry file="ClassTest_Test - 2017.03.01 at 10h 51m 09s.xml">
       <configuration name="ClassTest.Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass_Test - 2017.02.23 at 22h 05m 22s.xml">
-      <configuration name="TestClass.Test" configurationId="TestNG" />
+    <history-entry file="ClassTest_Test - 2017.03.01 at 13h 13m 48s.xml">
+      <configuration name="ClassTest.Test" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestClass_Test - 2017.02.23 at 22h 06m 09s.xml">
       <configuration name="TestClass.Test" configurationId="TestNG" />
@@ -836,10 +833,9 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1192,42 +1188,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tools/TestListenerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tools/IwebAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tools/IwebApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjectModel/MortgagesPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1244,18 +1204,6 @@
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjectModel/MortgagePaymentCalculatorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2823#2824#0" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1284,12 +1232,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjectModel/AbstractPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2083#2084#0" expanded="true" />
             <element signature="e#2153#2154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tools/IwebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tools/IwebAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tools/TestListenerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjectModel/MortgagePaymentCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2898#2899#0" expanded="true" />
+            <element signature="e#2943#2944#0" expanded="true" />
           </folding>
         </state>
       </provider>

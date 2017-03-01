@@ -48,7 +48,7 @@ public abstract class AbstractPage {
     }
 
 
-    public static void doubleClickonWebelement(WebElement element){
+    public static void doubleClickOnWebelement(WebElement element){
         WebDriverWait wait = new WebDriverWait(Browser.getDriver(), 20);
         wait.until(ExpectedConditions.elementToBeClickable(element));
         Actions action = new Actions(Browser.getDriver());

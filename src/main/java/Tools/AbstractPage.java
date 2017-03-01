@@ -1,5 +1,6 @@
-package PageObjectModel;
+package Tools;
 
+import PageObjectModel.Browser;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

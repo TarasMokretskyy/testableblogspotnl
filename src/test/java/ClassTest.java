@@ -45,6 +45,7 @@ public class ClassTest implements IwebAppTest {
         mortgagePaymentCalculatorPage.clickOnCalculateButton();
 
         mortgagePaymentCalculatorPage.setExpectedWeeklyPayments();
+
         String actual = mortgagePaymentCalculatorPage.getActualWeeklyPayments();
         String expected = mortgagePaymentCalculatorPage.getExpectedWeeklyPayments();
 

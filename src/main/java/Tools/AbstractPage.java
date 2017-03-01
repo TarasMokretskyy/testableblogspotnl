@@ -33,7 +33,7 @@ public abstract class AbstractPage {
 
     public static void waitForWebelement(WebElement element){
         WebDriverWait wait = new WebDriverWait(Browser.getDriver(), 20);
-        wait.until(ExpectedConditions.visibilityOf(element));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
 
@@ -53,7 +53,7 @@ public abstract class AbstractPage {
         WebDriverWait wait = new WebDriverWait(Browser.getDriver(), 20);
         wait.until(ExpectedConditions.elementToBeClickable(element));
         Actions action = new Actions(Browser.getDriver());
-        action.doubleClick(element).perform();
+        action.doubleClick(element).build().perform();
     }
 
 

@@ -1,15 +1,19 @@
 import PageObjectModel.*;
+import Tools.IwebApp;
+import Tools.IwebAppTest;
+import Tools.TestListenerClass;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Description;
 
-@Listeners(Listener_Demo.ListenerTest.class)
 
+@Listeners(TestListenerClass.class)
+public class ClassTest implements IwebAppTest {
 
-public class TestClass {
-
+    private Browser browser = new Browser(Browser.getDriver());
     private MainPage mainPage;
     private LoansMenu loansMenu;
     private MortgagesPage mortgagesPage;
@@ -17,14 +21,15 @@ public class TestClass {
 
 
     @BeforeClass
-    public void setUp(){
-        Browser.openChromeBrowser();
-        mainPage = Browser.openMainPage();
+    public void setUp() {
+        browser.openChromeBrowser();
+        mainPage = browser.openMainPage();
     }
 
 
-    @Test()
-    public void Test() throws InterruptedException{
+    @Test
+    @Description(value = "Open mortgages webpage, set all necessary values, compare actual and expected results")
+    public void Test() throws InterruptedException {
         loansMenu = mainPage.clickOnLoans();
         mortgagesPage = loansMenu.clickOnMortgagesLink();
 
@@ -48,7 +53,13 @@ public class TestClass {
 
 
     @AfterClass
-    public void tearDown(){
+    public void tearDown() {
         Browser.closeBrowser();
+    }
+
+
+    @Override
+    public IwebApp getTestedInstance() {
+        return browser;
     }
 }

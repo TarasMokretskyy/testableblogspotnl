@@ -1,6 +1,7 @@
 package PageObjectModel;
 
-import org.openqa.selenium.Keys;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
@@ -18,7 +19,6 @@ public abstract class AbstractPage {
     public static void clickOnWebelement(WebElement element){
         WebDriverWait wait = new WebDriverWait(Browser.getDriver(), 20);
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
-
     }
 
     public static void inputTextIntoWebelement(WebElement element, String text){
@@ -45,5 +45,18 @@ public abstract class AbstractPage {
     public static void moveSlider(WebElement element, WebElement otherElement) {
         Actions actions = new Actions(Browser.getDriver());
         actions.clickAndHold(element).moveToElement(otherElement).release(otherElement).build();
+    }
+
+
+    public static void doubleClickonWebelement(WebElement element){
+        WebDriverWait wait = new WebDriverWait(Browser.getDriver(), 20);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        Actions action = new Actions(Browser.getDriver());
+        action.doubleClick(element).perform();
+    }
+
+
+    public static void takeScreenShot(WebDriver driver){
+        TakesScreenshot screenshot = ((TakesScreenshot)driver);
     }
 }

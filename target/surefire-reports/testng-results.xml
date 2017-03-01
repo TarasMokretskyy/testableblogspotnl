@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="29606" started-at="2017-02-22T13:55:57Z" finished-at="2017-02-22T13:56:26Z">
+  <suite name="Surefire suite" duration-ms="23016" started-at="2017-03-01T09:07:29Z" finished-at="2017-03-01T09:07:52Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="29606" started-at="2017-02-22T13:55:57Z" finished-at="2017-02-22T13:56:26Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestClass@3e850122]" name="setUp" is-config="true" duration-ms="10241" started-at="2017-02-22T15:55:57Z" finished-at="2017-02-22T15:56:07Z">
+    <test name="Surefire test" duration-ms="23016" started-at="2017-03-01T09:07:29Z" finished-at="2017-03-01T09:07:52Z">
+      <class name="ClassTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ClassTest@3e4f80cb]" name="setUp" is-config="true" duration-ms="9226" started-at="2017-03-01T11:07:29Z" finished-at="2017-03-01T11:07:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="Test()[pri:0, instance:TestClass@3e850122]" name="Test" duration-ms="18345" started-at="2017-02-22T15:56:07Z" finished-at="2017-02-22T15:56:25Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:ClassTest@3e4f80cb]" name="Test" duration-ms="12527" started-at="2017-03-01T11:07:38Z" finished-at="2017-03-01T11:07:51Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [$ 836.75] but found [$ 726.35]]]>
@@ -24,7 +24,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:190)
 	at org.testng.Assert.assertEquals(Assert.java:200)
-	at TestClass.Test(TestClass.java:47)
+	at ClassTest.Test(ClassTest.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -60,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClass@3e850122]" name="tearDown" is-config="true" duration-ms="940" started-at="2017-02-22T15:56:25Z" finished-at="2017-02-22T15:56:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ClassTest@3e4f80cb]" name="tearDown" is-config="true" duration-ms="869" started-at="2017-03-01T11:07:51Z" finished-at="2017-03-01T11:07:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestClass -->
+      </class> <!-- ClassTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

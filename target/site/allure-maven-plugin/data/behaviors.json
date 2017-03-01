@@ -10,7 +10,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "3735683ce343fb3b",
+      "uid" : "4206d891fc80366",
       "title" : "Without story",
       "statistic" : {
         "total" : 1,
@@ -21,13 +21,13 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "d4b08f7586182982",
+        "uid" : "f200cc60ad59e02a",
         "name" : "Test",
         "title" : "Test",
         "time" : {
-          "start" : 1487771767512,
-          "stop" : 1487771785857,
-          "duration" : 18345
+          "start" : 1488359259013,
+          "stop" : 1488359271793,
+          "duration" : 12780
         },
         "severity" : "NORMAL",
         "status" : "FAILED"
